@@ -1,5 +1,5 @@
-const staticDev = "panchang_riddle"
-const service_worker_version = "v1.1"
+const staticDev = "daily_cal_riddle"
+const service_worker_version = "v1.0"
 const assets = [
   "/",
   "index.html",

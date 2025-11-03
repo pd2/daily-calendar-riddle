@@ -1,10 +1,10 @@
 {
-  "name": "Panchang riddle",
-  "short_name": "Panchang Rid",
-  "start_url": "https://pd2.github.io/panchang-riddle/",
+  "name": "Daily Calendar riddle",
+  "short_name": "Daily Cal Rid",
+  "start_url": "https://pd2.github.io/daily-calendar-riddle/",
   "icons": [
     {
-      "src": "assets/panchang_riddle.png",
+      "src": "assets/daily_cal_riddle.png",
       "sizes": "256x256",
       "type": "image/png"
     }

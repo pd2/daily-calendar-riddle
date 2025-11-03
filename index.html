@@ -10,6 +10,14 @@
         <!-- for check button wait animation -->
         <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
         <title>Daily Calendar Puzzle</title>
+        
+        <!-- The website stylesheet -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="manifest" href="manifest.json" >
+        <link rel="icon" href="assets/panchang_riddle.jpg" >
+    
+        <!-- The website JavaScript file -->
+        <script src="script.js" defer></script>
     </head>
     <body>
         <noscript>
@@ -198,5 +206,19 @@
                 <button id="solve" class="bottomButton" onclick="showSolution()">Solution</button>
             </div>
         </div>
-    </body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker
+            .register("serviceWorker.js")
+            .then(res => console.log("service worker registered"))
+            .catch(err => console.log("service worker not registered", err))
+        })
+      }
+    </script>
+  </body>
+  <footer>
+    <span style="white-space: nowrap"> &copy; 2025 <a href="https://www.pradeepd.com/hobbies/apps">Pradeep D</a>, <a href="https://www.iseek.page">iSeek</a>. Courtesy: Oliverrt </span>
+    <br> <a href="https://www.buymeacoffee.com/pradeepde">Buy me a coffee</a>
+  </footer>
 </html>
